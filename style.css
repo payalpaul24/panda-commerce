@@ -1,7 +1,11 @@
 .container{
     margin-bottom: 100px;
 }
-
+.navbar ul li a:hover {
+    border-bottom: 2px solid;
+    border-image: linear-gradient(180deg,lightsalmon,cyan);
+    border-image-slice: 1;
+}
 #carouselExampleControls{
     background-color: #fceae8;
     border-radius: 10px;
